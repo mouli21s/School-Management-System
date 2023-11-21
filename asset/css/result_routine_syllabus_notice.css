@@ -1,0 +1,12 @@
+
+#result_routine_syllabus_notice_section .table{
+    text-align: center;
+    box-sizing: border-box;
+}
+#result_routine_syllabus_notice_section .table td img{
+    width: 30px;
+    height: 30px;
+}
+#result_routine_syllabus_notice_section .table td a:hover{
+    text-decoration: underline !important;
+}

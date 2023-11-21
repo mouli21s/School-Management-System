@@ -1,0 +1,32 @@
+.student_section .all_class{
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.teacher_staff_section  td{
+    border: 1px solid;
+}
+.teacher_staff_section  .pic{
+    text-align: center;
+}
+.teacher_staff_section  .teacher_picture{
+    height: 80px;
+    width: 130px;
+    object-fit: cover;
+}
+.teacher_staff_section  .teacher_picture img{
+    object-fit: cover;
+}
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+.accordion .class ,.accordion .section{
+    --bs-accordion-active-color: #609513;
+    font-weight: bold;
+}
+.accordion .class {
+    --bs-accordion-active-bg: rgb(192, 244, 227);
+}
+.accordion .section {
+    --bs-accordion-active-bg: rgb(217, 239, 253);
+}

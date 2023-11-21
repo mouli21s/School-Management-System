@@ -1,1 +1,1 @@
-# mouli21s-School-Management-System
+# School-Management-System

@@ -1,0 +1,18 @@
+.principle_massage {
+    border: 1px solid #ddd;
+    padding: 10px; 
+    box-sizing: border-box;
+}
+.principle_massage .principle_pic{
+    text-align: center;
+}
+.principle_massage .principle_pic img{
+    width: 60%;
+}
+.principle_massage .principle_msg{
+    padding: 50px;
+}
+.principle_massage .principle_msg p{
+    text-align: justify;
+    margin-bottom: 20px;
+}

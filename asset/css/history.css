@@ -1,0 +1,18 @@
+.history_section {
+    border: 1px solid #ddd;
+    padding: 10px; 
+    box-sizing: border-box;
+}
+.history_section .history_pic{
+    text-align: center;
+}
+.history_section .history_pic img{
+    width: 60%;
+}
+.history_section .history_msg{
+    padding: 50px;
+}
+.history_section .history_msg p{
+    text-align: justify;
+    margin-bottom: 20px;
+}

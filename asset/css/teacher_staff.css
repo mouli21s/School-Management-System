@@ -1,0 +1,14 @@
+.teacher_staff_section  td{
+    border: 1px solid;
+}
+.teacher_staff_section  .pic{
+    text-align: center;
+}
+.teacher_staff_section  .teacher_picture{
+    height: 80px;
+    width: 130px;
+    object-fit: cover;
+}
+.teacher_staff_section  .teacher_picture img{
+    object-fit: cover;
+}

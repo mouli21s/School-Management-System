@@ -1,0 +1,13 @@
+.gallery_section .gallery_part {
+    padding: 0 50px;
+}
+.gallery_section .gallery_part .gallery_image{
+    padding: 10px;
+}
+.gallery_section .gallery_part .gallery_image img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    border: 1px solid;
+    /* border-radius: 20px; */
+}

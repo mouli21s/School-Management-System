@@ -1,0 +1,194 @@
+/* 
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Gloock', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif; 
+ */
+
+                /* ----------------- START COMMON CSS ----------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+    font-family: 'Open Sans' sans-serif;
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    background: #fafafa;
+}
+.container{
+    box-shadow: 0px 0px 20px 0px rgba(176,176,176,1);
+    width: 1150px;
+    background: #fff;
+    padding: 0;
+}
+.wrapper .inner_wrapper{
+    padding: 0 15px;
+}
+ul{
+    padding: 0 !important;
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+.row {
+    --bs-gutter-x: 0;
+}
+.title{
+    margin-bottom: 20px;
+}
+.page_btn{
+    margin: 30px auto 0 auto;
+}
+.page_btn a{
+    color: #fff;
+    background: #609513;
+    border: 1px solid #609513;
+    padding: 10px 30px;
+    transition: .4s;
+}
+.page_btn a:hover{
+    color: #609513;
+    background: #fff;
+    border: 1px solid #609513;
+}
+.title{
+    text-align: center;
+    color: #609513;
+    border: 1px solid #609513;
+    padding: 10px;
+}
+
+                /* ----------------- END COMMON CSS ----------------- */
+
+
+                /* ----------------- END TOP INFORMATION ----------------- */
+.top_information{
+    background: #609513;
+    padding: 7px 10px;
+}
+.top_information .loc_num{
+    color: #fff;
+}
+.top_information .loc_num i,span{
+    font-size: 14px;
+}
+.top_information .loc_num i{
+    margin: 0 5px;
+}
+.top_information .loc_num span{
+    margin-right: 20px;
+}
+                /* ----------------- END TOP INFORMATION ----------------- */
+
+
+                /* ----------------- END BANNER PART ----------------- */
+
+.banner_section .banner_part{
+    position: relative;
+}
+.banner_section .banner_part img{
+    height: 400px;
+    object-fit: cover;
+}
+.banner_section .banner_part .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.banner_section .banner_part .overlay img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 15% 0 0 10%;
+}
+.banner_section .banner_part .overlay h1{
+    margin: 0 0 0 10%;
+    color: #fff;
+    text-shadow: 3px 3px 3px #000;
+}
+.banner_section .banner_part .overlay p{
+    margin: 0 0 0 10%;
+    color: #fff;
+    text-shadow: 3px 3px 3px #000;
+    font-size: 20px;
+}
+
+                /* ----------------- END BANNER PART ----------------- */
+
+
+                /* ----------------- END NAVBAR PART ----------------- */
+
+
+.wrapper .nav_part{
+    margin: 10px 0;
+} 
+.wrapper .navbar .navbar_menu {
+    width: 100%;
+    margin: 0;
+}
+.wrapper .navbar .navbar_menu .menu_item{
+    display: inline;
+    margin: 0;
+}
+.wrapper .navbar .navbar_menu .menu_item a{
+    padding: 10px 21px;
+    color: #609513;
+    width: 100%;
+}
+.wrapper .navbar .navbar_menu .menu_item a:hover{
+    background: #609513;
+    color: #fff;
+}
+
+/* ----------------- END NAVBAR PART ----------------- */
+
+
+                /* ---------------- FOOTER PART-------------- */
+
+.footer_section{
+    padding: 50px 0;
+}
+.footer_section .footer_logo img{
+    width: 100%;
+}
+.footer_section h1{
+    font-size: 22px;
+    font-weight: 500;
+}
+.footer_section ul li a{
+    color: #929798;
+    font-size: 16px;
+    margin-bottom: 5px;
+    transition: .4s;
+}
+.footer_section ul li a:hover{
+    color: #000;
+}
+
+                /* ---------------- FOOTER PART-------------- */
+
+
+                /* ---------------- CPOY RIGHT START -------------- */
+.copyright_section{
+    background: #063852;
+    color: #fff;
+    padding: 10px 0;
+}
+.copyright_section .copyright_part p{
+    font-size: 12px;
+margin-bottom: 0px;
+}
+                
+                /* ---------------- CPOY RIGHT END -------------- */
